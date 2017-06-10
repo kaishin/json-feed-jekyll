@@ -1,4 +1,4 @@
-A spec-compliant [JSON Feed](https://jsonfeed.org) template for your Jekyll-generated blog.
+A fully spec-compliant [JSON Feed](https://jsonfeed.org) template for your Jekyll-generated blog.
 
 ## How to Use
 
@@ -15,6 +15,8 @@ Add a `json_feed` key to your `config.yml`, with all config options under it:
 ~~~yaml
 json_feed:
   favicon: favicon.png
+  ...
+  ...
 ~~~
 
 ### Using `_data`
@@ -30,7 +32,7 @@ Then create a `_data/json_feed.yml` in your source folder.
 
 ### Config options
 
-At the root level in your `_config.yml` or `_data/json_feed.yml`:
+Site-wide config options in your `_config.yml` or `_data/json_feed.yml`:
 
 - `user_comment` Optional. A description of the purpose of the feed
 - `favicon` Optional. Relative path of the favicon in the source folder.
